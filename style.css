@@ -1,0 +1,203 @@
+/*body{*/
+/*    margin: 0;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    height: 100vh;*/
+/*    align-items: center;*/
+/*    text-align: center;*/
+/*    background-color: #d5cc25;*/
+/*    font-family: cursive;*/
+/*}*/
+
+/*.form{*/
+/*    background-color: white;*/
+/*    padding: 30px;*/
+/*    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);*/
+/*    border-radius: 9px;*/
+/*    margin: 12px;*/
+/*}*/
+
+/*.input{*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    box-sizing: border-box;*/
+/*    font-size: 30px;*/
+/*    text-align: center;*/
+/*    padding: 10px;*/
+/*    border: solid 4px #31a205;*/
+/*    color: #1a1a1a;*/
+
+/*}*/
+
+/*.input::placeholder{*/
+/*    color: lightslategray;*/
+/*    font-family: cursive;*/
+/*}*/
+
+/*.btn{*/
+/*    background-color: green;*/
+/*    color: white;*/
+/*    border: none;*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    padding: 10px;*/
+/*    font-size: 25px;*/
+/*    font-family: cursive;*/
+/*    margin: 20px 0;*/
+/*    border-radius: 4px;*/
+/*    box-shadow: 0 2px 4px rgba(0,0,0, 0.3);*/
+/*    cursor: pointer;*/
+/*}*/
+/*.btn:hover{*/
+/*    filter: brightness(0.9);*/
+/*}*/
+
+/*.score{*/
+/*    text-align: right;*/
+/*    color: #31a205;*/
+/*}*/
+
+/*body{*/
+/*    margin: 0;*/
+/*    font-family: cursive;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    height: 100vh;*/
+/*    align-items: center;*/
+/*    background:url("https://img.freepik.com/free-photo/top-view-colorful-letters-numbers-baby-shower_23-2148430468.jpg?w=1060&t=st=1675538206~exp=1675538806~hmac=1e1ffa71a0f6ab045f9f189a063b19a19e724259780e44ae6477e239d100dc26");*/
+/*    background-size: cover;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.form{*/
+/*    background-color: white;*/
+/*    padding: 30px;*/
+/*    border-radius: 5px;*/
+/*    box-shadow: 2px 10px 12px rgba(0,0,0, 0.3);*/
+/*    margin: 12px;*/
+/*    width: 80vh;*/
+/*}*/
+
+/*.score {*/
+/*    text-align: right;*/
+/*    font-size: 20px;*/
+/*    font-weight: 100;*/
+
+/*}*/
+
+/*.input{*/
+/*   display: block;*/
+/*    width: 100%;*/
+/*    box-sizing: border-box;*/
+/*    text-align: center;*/
+/*    font-size: 25px;*/
+/*    font-family: cursive;*/
+/*    padding: 15px;*/
+/*    border: solid 4px orangered;*/
+/*    border-radius: 5px;*/
+
+/*}*/
+/*input:focus,*/
+/*select:focus,*/
+/*textarea:focus,*/
+/*button:focus {*/
+/*    outline: none;*/
+/*}*/
+/*.btn{*/
+/*    background-color: orangered;*/
+/*    border: none;*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    color: #fff;*/
+/*    padding: 18px;*/
+/*    font-size: 25px;*/
+/*    box-sizing: border-box;*/
+/*    border-radius: 3px;*/
+/*    margin: 15px 0;*/
+/*    font-family: cursive;*/
+/*    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);*/
+/*}*/
+/*.btn:hover{*/
+/*    filter: brightness(0.9);*/
+/*}*/
+
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cornflowerblue;
+    font-family: cursive;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.question{
+    font-size: 30px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: white;
+    padding: 40px;
+    width: 40vw;
+    border-radius: 5px;
+    text-align: center;
+    font-family: inherit;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+}
+
+.input{
+    padding: 16px;
+    border:solid 4px cornflowerblue;
+    font-family: inherit;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.input:focus{
+    outline: none;
+}
+
+.score{
+    text-align: right;
+    font-size: 20px;
+    color: chocolate;
+}
+
+.btn{
+    border: none;
+    width: 100%;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 18px;
+    border-radius: 5px;
+    font-size: 23px;
+    font-family: inherit;
+    box-shadow: 0 7px 10px rgba(0,0,0,0.3);
+}
+.btn:hover{
+    filter: brightness(0.9);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
